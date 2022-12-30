@@ -1,11 +1,12 @@
 
 import React from "react";
-import WeatherFetch from './weatherFetch.js'
+import WeatherFetch from './weatherFetch.js';
+
 
 function App() {
   return (
     <div className="App">
-      <WeatherFetch />
+      <WeatherFetch />      
     </div>
   );
 }
