@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.container {
+  position:relative;
+  text-align: center;
+  width: "100%";
+  color:black;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(216, 235, 255, 0.167);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

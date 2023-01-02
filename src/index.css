@@ -1,4 +1,6 @@
 body {
+  /* background-color: yellow; */
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,4 +13,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.test {
+  color:white;
+  background-image: url(./logo.jpeg);;
+ /* background-image: url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/rk.png"); */
+    background-size: "cover";
+    height: 1000vh;
+    margin-top: 0px;
+    font-size:15px;
+    background-repeat:no-repeat; ;
+ 
 }
